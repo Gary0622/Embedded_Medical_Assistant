@@ -14,6 +14,7 @@ accelerate config
 ```
 
 ## **Project Structure**
+```
 course_project/
 ├── data/
 │   ├── mimic-iii-clinical-database-1.4/    # Raw CSVs (not in Git)
@@ -34,7 +35,7 @@ course_project/
     tools/     
     offload/
     data/mimic-iii-clinical-database-1.4/
-
+```
 
 ## **Usage**
 	1.	Prepare data
