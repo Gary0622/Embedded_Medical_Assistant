@@ -12,7 +12,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 accelerate config   
 
-Project Structure
+## Project Structure
 course_project/
 ├── data/
 │   ├── mimic-iii-clinical-database-1.4/    # Raw CSVs (not in Git)
@@ -35,7 +35,7 @@ course_project/
     data/mimic-iii-clinical-database-1.4/
 
 
-Usage
+## Usage
 	1.	Prepare data
 	•	Place MIMIC-III CSV files under data/mimic-iii-clinical-database-1.4/
 	•	Run python scripts/make_jsonl.py to produce data/jsonl/train.jsonl & valid.jsonl
