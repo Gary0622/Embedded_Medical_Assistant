@@ -36,9 +36,9 @@ project/
 	1.Prepare data
   	•Place MIMIC-III CSV files under data/mimic-iii-clinical-database-1.4/
   	•Run python scripts/make_jsonl.py to produce data/jsonl/train.jsonl & valid.jsonl
-  2.Fine-tune
+ 	2.Fine-tune
   	•Clone weights: git clone https://huggingface.co/meta-llama/Llama-2-7b-hf models/Llama-2-7b-hf && cd models/Llama-2-7b-hf && git lfs pull
   	•Run accelerate launch scripts/train_instruct.py
-  3.Merge & Infer
+ 	3.Merge & Infer
   	•python scripts/merge_lora.py
   	•python scripts/test_generate.py --model models/merged-instruct --prompt "Diagnosis ICD9: 4019\nRecommended medications: "
