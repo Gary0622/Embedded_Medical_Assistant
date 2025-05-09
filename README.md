@@ -19,7 +19,13 @@ course_project/
 ├── data/
 │   ├── mimic-iii-clinical-database-1.4/    # Raw CSVs (not in Git)
 │   └── jsonl/                              # Generated train/valid JSONL
-├── scripts/
+├── raspi-device-ver-main/      # device source files
+│   ├── app.py
+│   ├── gui_voice_llm.py
+│   ├── stt.py
+│   ├── tts_coqui.py
+│   └── voice2llm_vosk.py
+├── training/
 │   ├── make_jsonl.py
 │   ├── train_instruct.py
 │   ├── merge_lora.py
