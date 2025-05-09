@@ -15,10 +15,7 @@ accelerate config
 
 ## **Project Structure**
 ```
-course_project/
-├── data/
-│   ├── mimic-iii-clinical-database-1.4/    # Raw CSVs (not in Git)
-│   └── jsonl/                              # Generated train/valid JSONL
+project/
 ├── raspi-device-ver-main/      # device source files
 │   ├── app.py
 │   ├── gui_voice_llm.py
@@ -30,17 +27,9 @@ course_project/
 │   ├── train_instruct.py
 │   ├── merge_lora.py
 │   └── test_generate.py
-├── tools/                                  # llama.cpp, quantization tools
-├── .gitignore
 ├── requirements.txt
 └── README.md
 
-.gitignore
-    models/
-    outputs-instruct/
-    tools/     
-    offload/
-    data/mimic-iii-clinical-database-1.4/
 ```
 
 ## **Usage**
